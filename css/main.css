@@ -1,12 +1,18 @@
+@import "{{ site.theme }}";
 body {
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
+}
+ul {
+    font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+    margin: 10px 0;
+    font-size: 15pt;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -14,19 +20,29 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #4183C4;;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: "Source Sans Pro",Calibri,Candara,Arial,sans-serif;
+    /*color: #003399;*/
 }
-p {
+
+h3 {
     font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
+    //font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    /*color: #003399;*/
+}
+
+p {
+    font-size: 15pt;
+    //line-height: 1.4em;
+    //color: #333;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -35,7 +51,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.5em;
+    font-size: 15pt;
 }
 
 ul.posts li {

@@ -1,4 +1,7 @@
 name: Anh Quach
 markdown: kramdown
 theme: jekyll-theme-midnight
+timezone: America/New_York
 permalink: /blog/:year/:month/:day/:title
+plugins:
+  - jekyll-sitemap

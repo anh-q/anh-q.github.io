@@ -3,14 +3,44 @@ layout: default
 title: Anh Quach
 ---
 <div class="blurb">
-  <h3>Bio</h3>
-  <p>I am a third year PhD Student at <a href="https://binghamton.edu">Binghamton University</a>. 
-    My adviser is Dr. <a href="https://sites.google.com/a/binghamton.edu/aravind/">Aravind Prakash</a>.
+
+  <style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+  <div class="row">
+  <div class="column" >
+    <h3>Bio</h3>
+      <p>I am a fourth year PhD Student at <a href="https://binghamton.edu">Binghamton University</a>. 
+        My adviser is Dr. <a href="https://sites.google.com/a/binghamton.edu/aravind/">Aravind Prakash</a>.
+        <br>
+        My research interest is software security, compiler-based soure code analysis, closed-source binary analysis, security-centric debloating, and reverse engineering.
+      </p>
+    
+  </div>
+  <div class="column" >
     <br>
-    My research interest is software security and program analysis.
-  </p>
-  <hr>
-  
+    <img src="../assets/images/portrait.jpg" alt="Anh Quach"  width="180" height="250">
+  </div>
+
+  </div>
+
   <h3>Publications</h3>
   <ul>
     <li>
@@ -21,8 +51,8 @@ title: Anh Quach
        Proceedings of the 2017 Workshop on Forming an Ecosystem Around Software Transformation (FEAST'17)
        <br>
        [<a href="../assets/papers/feast17.pdf">paper</a>
-       |<a href="../assets/papers/feast17_slides.pdf">slides</a>
-       |<a href="../assets/papers/feast17.bib">bib</a>]
+       | <a href="../assets/papers/feast17_slides.pdf">slides</a>
+       | <a href="../assets/papers/feast17.bib">bib</a>]
     </li>
     <br>
     <li>
@@ -33,9 +63,9 @@ title: Anh Quach
        Proceedings of the 33rd Annual Computer Security Applications Conference (ACSAC'17)
        <br>
        [<a href="../assets/papers/acsac17.pdf">paper</a>
-       |<a href="../assets/papers/acsac17_slides.pdf">slides</a>
-       |<a href="../assets/papers/acsac17.bib">bib</a>
-       |<a href="https://github.com/bingseclab/spiglass">artifact</a>]
+       | <a href="../assets/papers/acsac17_slides.pdf">slides</a>
+       | <a href="../assets/papers/acsac17.bib">bib</a>
+       | <a href="https://github.com/bingseclab/spiglass">artifact</a>]
     </li>
     <br>
     <li>
@@ -43,12 +73,36 @@ title: Anh Quach
        <br>
        <b>Anh Quach</b>, Aravind Prakash and Lok Kwong Yan.
        <br>
-       To appear in the proceedings of the 27th Annual USENIX Security Symposium (USENIX'18)
+       Proceedings of the 27th Annual USENIX Security Symposium (USENIX'18)
        <br>
        [<a href="../assets/papers/usenix18.pdf">paper</a>
-       |<a href="../assets/papers/usenix18_slides.pdf">slides</a>
-       |<a href="../assets/papers/usenix18.bib">bib</a>
-       |artifact]
+       | <a href="../assets/papers/usenix18_slides.pdf">slides</a>
+       | <a href="../assets/papers/usenix18.bib">bib</a>
+       | <a href="https://github.com/bingseclab/piecewise">artifact</a>]
+    </li>
+    <br>
+    <li>
+       <strong>Bloat Factors and Binary Specialization</strong>
+       <br>
+       <b>Anh Quach</b> and Aravind Prakash.
+       <br>
+       To appear in the 2019 Workshop on Forming an Ecosystem Around Software Transformation (FEAST'19)
+       <br>
+       [<a href="../assets/papers/feast19.pdf">paper</a>
+       | <a href="../assets/papers/feast19_slides.pdf">slides</a>
+       | <a href="../assets/papers/feast19.bib">bib</a>]
+    </li>
+    <br>
+    <li>
+       <strong>On Design Inference from Binaries Compiled using Modern C++ Defenses</strong>
+       <br>
+       Rukayat Erinfolami, <b>Anh Quach</b>, and Aravind Prakash.
+       <br>
+       The 22nd International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2019)
+       <br>
+       [<a href="../assets/papers/raid19.pdf">paper</a>
+       | <a href="../assets/papers/raid19_slides.pdf">slides</a>
+       | <a href="../assets/papers/raid19.bib">bib</a>]
     </li>
     <br>
   </ul>
